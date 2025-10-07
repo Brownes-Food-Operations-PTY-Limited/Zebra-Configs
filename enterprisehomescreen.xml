@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><config>
+  <kiosk>
+    <application label="DWDemo" package="com.symbol.datawedge" activity="com.symbol.datawedge.DWDemoActivity"/>
+  </kiosk>
+  <applications>
+    <application label="Velocity" package="com.wavelink.velocity" activity="com.wavelink.velocity.te.SplashActivity"/>
+    <application label="Battery Manager" package="com.symbol.batterymanager" activity="com.symbol.batterymanager.BatteryHealthActivity"/>
+    <application label="WorryFree WiFi" package="com.zebra.smartmu.app" activity="com.zebra.smartmu.SplashActivity"/>
+  </applications>
+  <tools>
+    <application label="DWDemo" package="com.symbol.datawedge" activity="com.symbol.datawedge.DWDemoActivity"/>
+  </tools>
+  <passwords>
+    <admin attempts="1">nh/O6IDY7Lg+Pvyu558fzaqp0pdpjUbdLDGBfVc8hb8=kXy3Efe+c/Gmrm8nYqVoOcniV7W5SmhuXF438iTchSs=</admin>
+  </passwords>
+  <user_options/>
+  <preferences>
+    <orientation/>
+    <wallpaper/>
+    <usb_debugging_disabled>1</usb_debugging_disabled>
+    <icon_label_text_color>#FFFFFFFF</icon_label_text_color>
+    <foreground_service_auto_launch_enable>1</foreground_service_auto_launch_enable>
+    <auto_launch_enable>1</auto_launch_enable>
+    <service_auto_launch_enable>0</service_auto_launch_enable>
+    <keyguard_search_disabled>1</keyguard_search_disabled>
+    <system_settings_restricted>1</system_settings_restricted>
+    <icon_label_background_color>#00FFFFFF</icon_label_background_color>
+    <keyguard_camera_disabled>1</keyguard_camera_disabled>
+    <kiosk_mode_enabled>0</kiosk_mode_enabled>
+    <title>Enterprise Home Screen</title>
+	<auto_launch>
+        <application delay="10" package="com.wavelink.velocity" activity=""/>
+    </auto_launch>
+  </preferences>
+</config>
